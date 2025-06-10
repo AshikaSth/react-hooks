@@ -11,10 +11,15 @@ import EffectCounter from './components/EffectCounter';
 import ClassMouse from './components/ClassMouse';
 import EffectMouse from './components/EffectMouse';
 import MouseContainer from './components/MouseContainer';
+import IntervalClassCounter from './components/IntervalClassCounter';
+import IntervalEffectCounter from './components/IntervalEffectCounter';
 function App() {
   return (
     <div className="App">
-      <MouseContainer />
+      <IntervalEffectCounter />
+
+      {/* <IntervalClassCounter /> */}
+      {/* <MouseContainer /> */}
       {/* <EffectMouse/> */}
       {/* <ClassMouse /> */}
       {/* <EffectCounter/> */}
