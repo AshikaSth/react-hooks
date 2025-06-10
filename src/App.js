@@ -10,10 +10,12 @@ import ClassCounter1 from './components/ClassCounter1';
 import EffectCounter from './components/EffectCounter';
 import ClassMouse from './components/ClassMouse';
 import EffectMouse from './components/EffectMouse';
+import MouseContainer from './components/MouseContainer';
 function App() {
   return (
     <div className="App">
-      <EffectMouse/>
+      <MouseContainer />
+      {/* <EffectMouse/> */}
       {/* <ClassMouse /> */}
       {/* <EffectCounter/> */}
       {/* <ClassCounter1/> */}

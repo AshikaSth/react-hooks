@@ -20,6 +20,10 @@ import React, { Component } from 'react'
   componentDidMount(){
     window.addEventListener('mousemove', this.logMousePosition);
   }
+
+  componentWillUnmount(){
+    window.removeEventListener('mousemove', this.logMousePosition);
+  }
   
   render() {
     return (
