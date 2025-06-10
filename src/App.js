@@ -13,10 +13,14 @@ import EffectMouse from './components/EffectMouse';
 import MouseContainer from './components/MouseContainer';
 import IntervalClassCounter from './components/IntervalClassCounter';
 import IntervalEffectCounter from './components/IntervalEffectCounter';
+import DataFetching from './components/DataFetching';
 function App() {
   return (
     <div className="App">
-      <IntervalEffectCounter />
+
+      <DataFetching/>
+
+      {/* <IntervalEffectCounter /> */}
 
       {/* <IntervalClassCounter /> */}
       {/* <MouseContainer /> */}
