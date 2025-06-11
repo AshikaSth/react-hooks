@@ -19,8 +19,8 @@ import FormWithMultipleInputs from './components/FormWithMultipleInputs';
 function App() {
   return (
     <div className="App">
-      <FormWithMultipleInputs/>
-      {/* <Form/> */}
+      {/* <FormWithMultipleInputs/> */}
+      <Form/>
 
       {/* <DataFetching/> */}
 
