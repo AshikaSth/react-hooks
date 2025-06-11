@@ -15,10 +15,12 @@ import IntervalClassCounter from './components/IntervalClassCounter';
 import IntervalEffectCounter from './components/IntervalEffectCounter';
 import DataFetching from './components/DataFetching';
 import Form from './components/Form';
+import FormWithMultipleInputs from './components/FormWithMultipleInputs';
 function App() {
   return (
     <div className="App">
-      <Form/>
+      <FormWithMultipleInputs/>
+      {/* <Form/> */}
 
       {/* <DataFetching/> */}
 
