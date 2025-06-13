@@ -16,11 +16,18 @@ import IntervalEffectCounter from './components/IntervalEffectCounter';
 import DataFetching from './components/DataFetching';
 import Form from './components/Form';
 import FormWithMultipleInputs from './components/FormWithMultipleInputs';
+import Accordion from './components/LiftingStateUp/Accordion';
+import SyncedInputs from './components/LiftingStateUp/SyncedInputs';
+import FilterLabelList from './components/LiftingStateUp/FilterLabelList';
 function App() {
   return (
     <div className="App">
+      <FilterLabelList/>
+      {/* <h1>My Accordion</h1>
+      <SyncedInputs/> */}
+      {/* <Accordion/> */}
       {/* <FormWithMultipleInputs/> */}
-      <Form/>
+      {/* <Form/> */}
 
       {/* <DataFetching/> */}
 
